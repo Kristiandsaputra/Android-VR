@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Area 55 VR</string>
+    <string name="link1">
+        <a href = "https://api.whatsapp.com/send?phone=628562859954">+628562859954</a>
+    </string>
+    <string name="link2">
+        <a href = "https://goo.gl/maps/uV62nCTVe8U2">Kweni RT 02, No. 22 Panggungharjo, Sewon Bantul, Yogyakarta</a>
+    </string>
+    <string name="link3">
+        <a href = "https://goo.gl/maps/sbbpUnEeABu">Jl. P. Soedirman 113 Tiron Banyakan, Kediri, Jawa Timur</a>
+    </string>
+    <string name="link4">
+    <a href = "tel:(0274)2872822">(0274)2872822</a>
+    </string>
+</resources>

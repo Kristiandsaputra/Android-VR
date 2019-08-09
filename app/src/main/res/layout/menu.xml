@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@mipmap/bg4"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="858px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:layout_marginBottom="130px"
+        android:layout_marginStart="80px"
+        android:layout_marginEnd="80px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@mipmap/teks2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <HorizontalScrollView
+            android:id="@+id/hscroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/vr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="35dp"
+                    android:background="@drawable/ripple2"
+                    android:scaleType="fitCenter" />
+
+                <Button
+                    android:id="@+id/web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/ripple3"
+                    android:onClick="open" />
+
+                <Button
+                    android:id="@+id/porto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/ripple4"
+                    android:onClick="open3" />
+
+                <Button
+                    android:id="@+id/anim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/ripple5"
+                    android:onClick="open2" />
+
+                <Button
+                    android:id="@+id/us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/ripple6" />
+
+                <Button
+                    android:id="@+id/cnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/ripple7" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</RelativeLayout>
